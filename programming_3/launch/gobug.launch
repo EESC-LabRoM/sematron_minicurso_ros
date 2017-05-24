@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="programming_3" type="kinematic_controller" name="kine" output="screen" />
+    <node pkg="programming_3" type="bug_node" name="bug" output="screen" />
+</launch>
